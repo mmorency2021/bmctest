@@ -105,8 +105,8 @@ hosts:
 will not check the https certificate of the BMC.
 
 how to use it
-
-  826  ./bmctest.sh -I baremetal -s pull_secret.json -c config.yaml
+```bash
+  ./bmctest.sh -I baremetal -s pull_secret.json -c config.yaml
   828  ./bmctest.sh -I baremetal -s pull_secret.json -c config.yaml
   831  more ocpbmctest.sh 
   834  ./ocpbmctest.sh -c install-config.yaml
@@ -114,3 +114,4 @@ how to use it
   976  ./ocpbmctest.sh -c install-config.yaml
   979  ./ocpbmctest.sh -c install-config.yaml
   983  ./ocpbmctest.sh -c install-config.yaml
+```
